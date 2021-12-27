@@ -1,14 +1,97 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  { 
+    "userId": 1, 
+    "enterpriseId": "p.bhanu", 
+    "firstName": "Bhanu", 
+    "lastName": "Krishna", 
+    "emailId": "p.bhanu@accenture.com", 
+    "isActive": true, 
+    "userRoles": [ { 
+      "roleId": 2, 
+      "roleName": "Admin",
+      "roleDesc": "Admin Description", 
+      "createdBy": "Admin", 
+      "createdOn": "2021-12-20T18:12:57.147", 
+      "lastUpdatedBy": null, 
+      "lastUpdatedOn": null 
+    } ], 
+    "createdBy": "Admin", 
+    "createdOn": "2021-12-20T17:49:26.65", 
+    "lastUpdatedBy": null, 
+    "lastUpdatedOn": null 
+  },
+  { 
+    "userId": 2, 
+    "enterpriseId": "N.Kumar", 
+    "firstName": "Nithesh", 
+    "lastName": "Kumar", 
+    "emailId": "N.Kumar@accenture.com", 
+    "isActive": true, 
+    "userRoles": [ { 
+      "roleId": 1, 
+      "roleName": "Admin",
+      "roleDesc": "Admin Description", 
+      "createdBy": "Admin", 
+      "createdOn": "2021-12-20T18:12:57.147", 
+      "lastUpdatedBy": null, 
+      "lastUpdatedOn": null 
+    } ], 
+    "createdBy": "Admin", 
+    "createdOn": "2021-12-20T17:49:26.65", 
+    "lastUpdatedBy": null, 
+    "lastUpdatedOn": null 
+  },
+  { 
+    "userId": 3, 
+    "enterpriseId": "Chinmayee.m", 
+    "firstName": "Chinmayee", 
+    "lastName": "Mahapatra", 
+    "emailId": "Chinmayee.m@accenture.com", 
+    "isActive": true, 
+    "userRoles": [ { 
+      "roleId": 1, 
+      "roleName": "Admin",
+      "roleDesc": "Admin Description", 
+      "createdBy": "Admin", 
+      "createdOn": "2021-12-20T18:12:57.147", 
+      "lastUpdatedBy": null, 
+      "lastUpdatedOn": null 
+    } ], 
+    "createdBy": "Admin", 
+    "createdOn": "2021-12-20T17:49:26.65", 
+    "lastUpdatedBy": null, 
+    "lastUpdatedOn": null 
+  },
+  { 
+    "userId": 4, 
+    "enterpriseId": "simpy.gupta", 
+    "firstName": "Simpy", 
+    "lastName": "Gupta", 
+    "emailId": "simpy.gupta@accenture.com", 
+    "isActive": true, 
+    "userRoles": [ 
+      { 
+        "roleId": 1, 
+        "roleName": "Admin",
+        "roleDesc": "Admin Description", 
+        "createdBy": "Admin", 
+        "createdOn": "2021-12-20T18:12:57.147", 
+        "lastUpdatedBy": null, 
+        "lastUpdatedOn": null 
+      },
+      { 
+        "roleId": 1, 
+        "roleName": "CFM User",
+        "roleDesc": "Admin Description", 
+        "createdBy": "Admin", 
+        "createdOn": "2021-12-20T18:12:57.147", 
+        "lastUpdatedBy": null, 
+        "lastUpdatedOn": null 
+      }
+    ], 
+    "createdBy": "Admin", 
+    "createdOn": "2021-12-20T17:49:26.65", 
+    "lastUpdatedBy": null, 
+    "lastUpdatedOn": null 
   }
-}
+]
